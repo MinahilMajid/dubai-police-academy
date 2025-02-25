@@ -1,0 +1,38 @@
+.dot-loader {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  animation: blink 1.5s infinite ease-in-out;
+}
+
+.small {
+  animation-delay: 0s;
+}
+
+.medium {
+  animation-delay: 0.2s;
+}
+
+.large {
+  animation-delay: 0.4s;
+}
+
+/* Blinking animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}

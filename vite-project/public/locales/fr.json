@@ -1,0 +1,59 @@
+{
+  "searchResults": {
+    "articlesBy": "Articles de: \"{{query}}\"",
+    "searchResultsFor": "Résultats de recherche pour: \"{{query}}\"",
+    "backToHome": "Retour à l'accueil"
+  },
+  "navbar": {
+    "title": "Plateforme de l'Académie de Police de Dubaï - Visiteur",
+    "home": "ACCUEIL",
+    "browse": "Explorer",
+    "signIn": "Se connecter"
+  },
+  "header": {
+    "title": "Bibliothèque numérique de l'Académie de Police de Dubaï",
+    "keywordSearch": "Recherche par mot-clé",
+    "advancedSearch": "Recherche avancée",
+    "fullText": "dans le texte intégral",
+    "placeholder": "Que cherchez-vous?",
+    "search": "Rechercher"
+  },
+  "resource": {
+    "articles": "Articles",
+    "theses": "Thèses",
+    "textbooks": "Manuels"
+  },
+  "textbook": {
+    "darkMode": "Mode sombre",
+    "lightMode": "Mode clair",
+    "search": "Rechercher du texte...",
+    "goToPage": "Aller à la page:",
+    "bookmark": "Marquer cette page",
+    "removeBookmark": "Supprimer le marque-page",
+    "highlight": "Surligner",
+    "addNote": "Ajouter une note",
+    "speak": "Lire",
+    "stopSpeaking": "Arrêter la lecture",
+    "downloadPDF": "Télécharger en PDF"
+  },
+  "articles": {
+    "title": "Articles",
+    "sortBy": "Trier par",
+    "sort": {
+      "date": "Date (du plus récent au plus ancien)",
+      "author": "Auteur (A-Z)",
+      "popularity": "Popularité (plus de vues)"
+    },
+    "views": "vues",
+    "author": "Auteur",
+    "date": "Date",
+    "download": "Télécharger PDF",
+    "save": "Enregistrer pour plus tard",
+    "saved": "Enregistré",
+    "savedArticles": "Articles enregistrés"
+  },
+  "advancedSearch": {
+    "placeholder": "Entrez les termes de recherche avancée...",
+    "search": "Rechercher"
+  }
+}

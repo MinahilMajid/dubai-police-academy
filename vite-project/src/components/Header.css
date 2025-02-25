@@ -1,0 +1,108 @@
+/* General Styles */
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 200px;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+
+h1 span {
+  color: #007bff; /* Change this to match your theme */
+}
+
+/* Search Container */
+.search-container {
+  width: 80%;
+  margin: 20px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+/* Tabs */
+.search-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.tab {
+  background: #dedede;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px 5px 0 0;
+}
+
+.tab.active {
+  background: #007bff;
+  color: rgb(236, 236, 236);
+  font-weight: bold;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px;
+  background: rgb(192, 184, 184);
+  border: -3px solid #cccccc;
+  border-radius: 5px;
+}
+
+.dropdown {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-btn {
+  /* background: #007bff; */
+  color:#007bff;
+  background: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.search-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+
+.search-btn big {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Advanced Search Button */
+.advanced-search {
+  display: block;
+  margin: 15px auto 0;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  background: none;
+  color: #007bff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.advanced-search:hover {
+  background: #007bff;
+  color: white;
+}

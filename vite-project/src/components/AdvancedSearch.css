@@ -1,0 +1,90 @@
+.suggestions-list {
+  position: absolute; /* Absolute so it stays under input */
+   /* Directly below the input field */
+  left: 0;
+  width: fit-content; /* Box will resize based on content width */
+  max-width: 400px; /* Set a max limit to prevent overflow */
+  max-height: 160px;
+  margin-left: 220px;
+  margin-top: 200px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  padding: 5px 0;
+}
+
+.suggestions-list li {
+  padding: 9px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.suggestions-list li:hover {
+  background: #f0f0f0;
+}
+
+.suggestions-list li:last-child {
+  border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .advanced-search-container {
+    width: 95%;
+    padding: 15px;
+  }
+}
+
+
+
+  input[type="textt"] {
+    flex: 1;
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 50px;
+    width: 600px;
+    width: 70%; /* Increased width to extend further */
+    padding: 8px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: -10px;
+
+
+  }
+  .search-boxx {
+    display: flex;
+    justify-content: flex-end; /* Moves search bar to the right */
+    align-items: center; /* Aligns items properly */
+    width: 100%;
+    margin-top: 9px; /* Adjust margin if needed */
+    padding: -20px;
+}
+  
+.search-btnn {
+  background: white;
+  color: #007bff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  position: relative;
+  top: -5px; /* Moves button slightly upwards */
+}
+
+.search-btnn:hover {
+  background:#007bff;
+  color: white;  
+  border: 1px solid #007bff;
+}             

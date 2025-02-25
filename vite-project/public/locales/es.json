@@ -1,0 +1,59 @@
+{
+  "searchResults": {
+    "articlesBy": "Artículos de: \"{{query}}\"",
+    "searchResultsFor": "Resultados de búsqueda para: \"{{query}}\"",
+    "backToHome": "Volver a inicio"
+  },
+  "navbar": {
+    "title": "Plataforma de la Academia de Policía de Dubái - Visitante",
+    "home": "INICIO",
+    "browse": "Explorar",
+    "signIn": "Iniciar sesión"
+  },
+  "header": {
+    "title": "Biblioteca digital de la Academia de Policía de Dubái",
+    "keywordSearch": "Búsqueda por palabra clave",
+    "advancedSearch": "Búsqueda avanzada",
+    "fullText": "en texto completo",
+    "placeholder": "¿Qué estás buscando?",
+    "search": "Buscar"
+  },
+  "resource": {
+    "articles": "Artículos",
+    "theses": "Tesis",
+    "textbooks": "Libros de texto"
+  },
+  "textbook": {
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro",
+    "search": "Buscar texto...",
+    "goToPage": "Ir a la página:",
+    "bookmark": "Marcar esta página",
+    "removeBookmark": "Eliminar marcador",
+    "highlight": "Resaltar",
+    "addNote": "Añadir nota",
+    "speak": "Leer",
+    "stopSpeaking": "Detener lectura",
+    "downloadPDF": "Descargar en PDF"
+  },
+  "articles": {
+    "title": "Artículos",
+    "sortBy": "Ordenar por",
+    "sort": {
+      "date": "Fecha (Más reciente primero)",
+      "author": "Autor (A-Z)",
+      "popularity": "Popularidad (Más vistos)"
+    },
+    "views": "vistas",
+    "author": "Autor",
+    "date": "Fecha",
+    "download": "Descargar PDF",
+    "save": "Guardar para más tarde",
+    "saved": "Guardado",
+    "savedArticles": "Artículos guardados"
+  },
+  "advancedSearch": {
+    "placeholder": "Introduce términos de búsqueda avanzada...",
+    "search": "Buscar"
+  }
+}

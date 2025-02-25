@@ -1,0 +1,61 @@
+{
+  "searchResults": {
+    "articlesBy": "Articles by: \"{{query}}\"",
+    "searchResultsFor": "Search Results for: \"{{query}}\"",
+    "backToHome": "Back to Home"
+  },
+  "navbar": {
+    "title": "Dubai Police Academy Platform - Visitor",
+    "home": "HOME",
+    "browse": "Browse",
+    "signIn": "Sign In"
+  },
+  "header": {
+    "title": "Dubai Police Academy Digital Library",
+    "keywordSearch": "Keyword Search",
+    "advancedSearch": "Advanced Search",
+    "fullText": "in Full Text",
+    "placeholder": "What are you looking for?",
+    "search": "Search"
+  },
+
+  "resource": {
+    "articles": "Articles",
+    "theses": "Theses",
+    "textbooks": "Textbooks"
+  },
+  "textbook": {
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "search": "Search text...",
+    "goToPage": "Go to page:",
+    "bookmark": "Bookmark this Page",
+    "removeBookmark": "Remove Bookmark",
+    "highlight": "Highlight",
+    "addNote": "Add Note",
+    "speak": "Speak",
+    "stopSpeaking": "Stop Speaking",
+    "downloadPDF": "Download PDF"
+  },
+  "articles": {
+    "title": "Articles",
+    "sortBy": "Sort by",
+    "sort": {
+      "date": "Date (Newest First)",
+      "author": "Author (A-Z)",
+      "popularity": "Popularity (Most Views)"
+    },
+    "views": "views",
+    "author": "Author",
+    "date": "Date",
+    "download": "Download PDF",
+    "save": "Save for Later",
+    "saved": "Saved",
+    "savedArticles": "Saved Articles"
+  },
+
+  "advancedSearch": {
+    "placeholder": "What are you looking for?",
+    "search": "Search"
+  }
+}

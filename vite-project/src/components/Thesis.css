@@ -1,0 +1,223 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.thesis-topics-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.thesis-title {
+  font-size: 2rem;
+  color: #1d72b8;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.search-input, .category-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.search-input:focus, .category-select:focus {
+  outline: none;
+  border-color: #1d72b8;
+}
+
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  color: #1d72b8;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.topics-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.topic-item {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.topic-item:hover {
+  background-color: #e0f7fa;
+}
+
+.new-topic-btn {
+  padding: 12px 20px;
+  background-color: #1d72b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-topic-btn:hover {
+  background-color: #0d4a70;
+}
+
+/* Topic Details */
+.topic-details {
+  background-color: #e9f4fc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topic-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1d72b8;
+  margin-bottom: 15px;
+}
+
+.topic-description {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.topic-likes {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.like-btn {
+  background-color: #1d72b8;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.like-btn:hover {
+  background-color: #0d4a70;
+}
+
+.comments-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.comments-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.comment-item {
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.comment-input:focus {
+  outline: none;
+  border-color: #1d72b8;
+}
+
+.back-btn {
+  padding: 10px 15px;
+  background-color: #1d72b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #0d4a70;
+}
+
+/* New Topic Form */
+.new-topic-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #1d72b8;
+}
+
+.submit-btn {
+  padding: 12px 20px;
+  background-color: #1d72b8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0d4a70;
+}
+
+.cancel-btn {
+  padding: 12px 20px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #d32f2f;
+}
